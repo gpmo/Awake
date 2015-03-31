@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17AF3FDA19C57E9800912989 /* WUUConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AF3FD919C57E9800912989 /* WUUConnectionManager.m */; };
+		17AF3FDE19C5859F00912989 /* digital_alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17AF3FDD19C5859F00912989 /* digital_alarm.wav */; };
+		17AF3FE019C58A8D00912989 /* snooze_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17AF3FDF19C58A8D00912989 /* snooze_button@2x.png */; };
+		17AF3FE219C58A9500912989 /* end_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17AF3FE119C58A9500912989 /* end_button@2x.png */; };
+		17AF3FE619C58D2B00912989 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AF3FE519C58D2B00912989 /* AudioToolbox.framework */; };
 		17CD756119C4C13600D69E5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CD756019C4C13600D69E5E /* Foundation.framework */; };
 		17CD756319C4C13600D69E5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CD756219C4C13600D69E5E /* CoreGraphics.framework */; };
 		17CD756519C4C13600D69E5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CD756419C4C13600D69E5E /* UIKit.framework */; };
@@ -19,6 +24,33 @@
 		17CD757C19C4C13700D69E5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CD756419C4C13600D69E5E /* UIKit.framework */; };
 		17CD758419C4C13700D69E5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17CD758219C4C13700D69E5E /* InfoPlist.strings */; };
 		17CD758619C4C13700D69E5E /* WakeUsUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD758519C4C13700D69E5E /* WakeUsUpTests.m */; };
+		17CD759619C4C3F500D69E5E /* WUULoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD759419C4C3F500D69E5E /* WUULoginViewController.m */; };
+		17CD759719C4C3F500D69E5E /* WUULoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17CD759519C4C3F500D69E5E /* WUULoginViewController.xib */; };
+		17CD759D19C4D02E00D69E5E /* WUUMainContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD759A19C4D02E00D69E5E /* WUUMainContext.m */; };
+		17CD759E19C4D02E00D69E5E /* WUUPSCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD759C19C4D02E00D69E5E /* WUUPSCManager.m */; };
+		17CD75A119C4D0B000D69E5E /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17CD759F19C4D0B000D69E5E /* DataModel.xcdatamodeld */; };
+		17CD75A519C4D0F700D69E5E /* WUUSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD75A319C4D0F700D69E5E /* WUUSignUpViewController.m */; };
+		17CD75A619C4D0F700D69E5E /* WUUSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17CD75A419C4D0F700D69E5E /* WUUSignUpViewController.xib */; };
+		17CD75A819C4E29800D69E5E /* ios7-close-outline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CD75A719C4E29800D69E5E /* ios7-close-outline@2x.png */; };
+		17CD75AB19C4E3A300D69E5E /* ios7-close-outline-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CD75AA19C4E3A300D69E5E /* ios7-close-outline-white@2x.png */; };
+		17CD75AD19C4EC0200D69E5E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CD75AC19C4EC0200D69E5E /* AddressBook.framework */; };
+		17CD75AF19C4EC0700D69E5E /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CD75AE19C4EC0700D69E5E /* AddressBookUI.framework */; };
+		17CD75B719C4F12900D69E5E /* WUUContactPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD75B619C4F12900D69E5E /* WUUContactPickerViewController.m */; };
+		17CD75BB19C525E600D69E5E /* WUUDesignHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD75BA19C525E600D69E5E /* WUUDesignHelper.m */; };
+		17CD75BE19C52CF000D69E5E /* WUUAlarmsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD75BD19C52CF000D69E5E /* WUUAlarmsTableViewController.m */; };
+		17CD75C219C52E7700D69E5E /* WUUAlarmTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD75C019C52E7700D69E5E /* WUUAlarmTableViewCell.m */; };
+		17CD75C319C52E7700D69E5E /* WUUAlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17CD75C119C52E7700D69E5E /* WUUAlarmTableViewCell.xib */; };
+		17CD75CB19C548D500D69E5E /* WUUClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD75C919C548D500D69E5E /* WUUClockViewController.m */; };
+		17CD75CC19C548D500D69E5E /* WUUClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17CD75CA19C548D500D69E5E /* WUUClockViewController.xib */; };
+		17CD75CE19C5511B00D69E5E /* clockBackground5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CD75CD19C5511B00D69E5E /* clockBackground5@2x.png */; };
+		17CD75D219C5597F00D69E5E /* WUUNewAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD75D019C5597F00D69E5E /* WUUNewAlarmViewController.m */; };
+		17CD75D319C5597F00D69E5E /* WUUNewAlarmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17CD75D119C5597F00D69E5E /* WUUNewAlarmViewController.xib */; };
+		28505FA91AA2DFDE00DA9B67 /* person-stalker.png in Resources */ = {isa = PBXBuildFile; fileRef = 28505FA71AA2DFDE00DA9B67 /* person-stalker.png */; };
+		28505FAA1AA2DFDE00DA9B67 /* person-stalker.png in Resources */ = {isa = PBXBuildFile; fileRef = 28505FA71AA2DFDE00DA9B67 /* person-stalker.png */; };
+		28505FAB1AA2DFDE00DA9B67 /* avatar_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 28505FA81AA2DFDE00DA9B67 /* avatar_placeholder.png */; };
+		28505FAC1AA2DFDE00DA9B67 /* avatar_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 28505FA81AA2DFDE00DA9B67 /* avatar_placeholder.png */; };
+		28505FAE1AA2E02300DA9B67 /* avatar_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 28505FAD1AA2E02300DA9B67 /* avatar_placeholder.png */; };
+		28505FAF1AA2E02300DA9B67 /* avatar_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 28505FAD1AA2E02300DA9B67 /* avatar_placeholder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +64,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17AF3FD819C57E9800912989 /* WUUConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUUConnectionManager.h; sourceTree = "<group>"; };
+		17AF3FD919C57E9800912989 /* WUUConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUUConnectionManager.m; sourceTree = "<group>"; };
+		17AF3FDD19C5859F00912989 /* digital_alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = digital_alarm.wav; sourceTree = "<group>"; };
+		17AF3FDF19C58A8D00912989 /* snooze_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snooze_button@2x.png"; sourceTree = "<group>"; };
+		17AF3FE119C58A9500912989 /* end_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "end_button@2x.png"; sourceTree = "<group>"; };
+		17AF3FE319C58C1400912989 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		17AF3FE519C58D2B00912989 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		17CD755D19C4C13600D69E5E /* WakeUsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeUsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CD756019C4C13600D69E5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17CD756219C4C13600D69E5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +87,40 @@
 		17CD758119C4C13700D69E5E /* WakeUsUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WakeUsUpTests-Info.plist"; sourceTree = "<group>"; };
 		17CD758319C4C13700D69E5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17CD758519C4C13700D69E5E /* WakeUsUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WakeUsUpTests.m; sourceTree = "<group>"; };
+		17CD759319C4C3F500D69E5E /* WUULoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUULoginViewController.h; sourceTree = "<group>"; };
+		17CD759419C4C3F500D69E5E /* WUULoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUULoginViewController.m; sourceTree = "<group>"; };
+		17CD759519C4C3F500D69E5E /* WUULoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUULoginViewController.xib; sourceTree = "<group>"; };
+		17CD759919C4D02E00D69E5E /* WUUMainContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUUMainContext.h; sourceTree = "<group>"; };
+		17CD759A19C4D02E00D69E5E /* WUUMainContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUUMainContext.m; sourceTree = "<group>"; };
+		17CD759B19C4D02E00D69E5E /* WUUPSCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUUPSCManager.h; sourceTree = "<group>"; };
+		17CD759C19C4D02E00D69E5E /* WUUPSCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUUPSCManager.m; sourceTree = "<group>"; };
+		17CD75A019C4D0B000D69E5E /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		17CD75A219C4D0F700D69E5E /* WUUSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUUSignUpViewController.h; sourceTree = "<group>"; };
+		17CD75A319C4D0F700D69E5E /* WUUSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUUSignUpViewController.m; sourceTree = "<group>"; };
+		17CD75A419C4D0F700D69E5E /* WUUSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUUSignUpViewController.xib; sourceTree = "<group>"; };
+		17CD75A719C4E29800D69E5E /* ios7-close-outline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-close-outline@2x.png"; sourceTree = "<group>"; };
+		17CD75AA19C4E3A300D69E5E /* ios7-close-outline-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-close-outline-white@2x.png"; sourceTree = "<group>"; };
+		17CD75AC19C4EC0200D69E5E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		17CD75AE19C4EC0700D69E5E /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		17CD75B519C4F12900D69E5E /* WUUContactPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUUContactPickerViewController.h; sourceTree = "<group>"; };
+		17CD75B619C4F12900D69E5E /* WUUContactPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUUContactPickerViewController.m; sourceTree = "<group>"; };
+		17CD75B919C525E600D69E5E /* WUUDesignHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUUDesignHelper.h; sourceTree = "<group>"; };
+		17CD75BA19C525E600D69E5E /* WUUDesignHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUUDesignHelper.m; sourceTree = "<group>"; };
+		17CD75BC19C52CF000D69E5E /* WUUAlarmsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUUAlarmsTableViewController.h; sourceTree = "<group>"; };
+		17CD75BD19C52CF000D69E5E /* WUUAlarmsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUUAlarmsTableViewController.m; sourceTree = "<group>"; };
+		17CD75BF19C52E7700D69E5E /* WUUAlarmTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUUAlarmTableViewCell.h; sourceTree = "<group>"; };
+		17CD75C019C52E7700D69E5E /* WUUAlarmTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUUAlarmTableViewCell.m; sourceTree = "<group>"; };
+		17CD75C119C52E7700D69E5E /* WUUAlarmTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUUAlarmTableViewCell.xib; sourceTree = "<group>"; };
+		17CD75C819C548D500D69E5E /* WUUClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUUClockViewController.h; sourceTree = "<group>"; };
+		17CD75C919C548D500D69E5E /* WUUClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUUClockViewController.m; sourceTree = "<group>"; };
+		17CD75CA19C548D500D69E5E /* WUUClockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUUClockViewController.xib; sourceTree = "<group>"; };
+		17CD75CD19C5511B00D69E5E /* clockBackground5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clockBackground5@2x.png"; sourceTree = "<group>"; };
+		17CD75CF19C5597F00D69E5E /* WUUNewAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUUNewAlarmViewController.h; sourceTree = "<group>"; };
+		17CD75D019C5597F00D69E5E /* WUUNewAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUUNewAlarmViewController.m; sourceTree = "<group>"; };
+		17CD75D119C5597F00D69E5E /* WUUNewAlarmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUUNewAlarmViewController.xib; sourceTree = "<group>"; };
+		28505FA71AA2DFDE00DA9B67 /* person-stalker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "person-stalker.png"; path = "../../../Desktop/person-stalker.png"; sourceTree = "<group>"; };
+		28505FA81AA2DFDE00DA9B67 /* avatar_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = avatar_placeholder.png; path = ../../../Desktop/avatar_placeholder.png; sourceTree = "<group>"; };
+		28505FAD1AA2E02300DA9B67 /* avatar_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = avatar_placeholder.png; path = ../../../Desktop/avatar_placeholder.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +128,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AF3FE619C58D2B00912989 /* AudioToolbox.framework in Frameworks */,
+				17CD75AF19C4EC0700D69E5E /* AddressBookUI.framework in Frameworks */,
+				17CD75AD19C4EC0200D69E5E /* AddressBook.framework in Frameworks */,
 				17CD756319C4C13600D69E5E /* CoreGraphics.framework in Frameworks */,
 				17CD756519C4C13600D69E5E /* UIKit.framework in Frameworks */,
 				17CD756119C4C13600D69E5E /* Foundation.framework in Frameworks */,
@@ -96,6 +172,10 @@
 		17CD755F19C4C13600D69E5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				17AF3FE519C58D2B00912989 /* AudioToolbox.framework */,
+				17AF3FE319C58C1400912989 /* CoreAudio.framework */,
+				17CD75AE19C4EC0700D69E5E /* AddressBookUI.framework */,
+				17CD75AC19C4EC0200D69E5E /* AddressBook.framework */,
 				17CD756019C4C13600D69E5E /* Foundation.framework */,
 				17CD756219C4C13600D69E5E /* CoreGraphics.framework */,
 				17CD756419C4C13600D69E5E /* UIKit.framework */,
@@ -107,10 +187,11 @@
 		17CD756619C4C13600D69E5E /* WakeUsUp */ = {
 			isa = PBXGroup;
 			children = (
-				17CD756F19C4C13600D69E5E /* WUUAppDelegate.h */,
-				17CD757019C4C13700D69E5E /* WUUAppDelegate.m */,
-				17CD757219C4C13700D69E5E /* Images.xcassets */,
-				17CD756719C4C13600D69E5E /* Supporting Files */,
+				17CD758F19C4C13C00D69E5E /* Applications */,
+				17CD759019C4C14100D69E5E /* Controllers */,
+				17CD759119C4C14600D69E5E /* Views */,
+				17CD759219C4C14A00D69E5E /* Models */,
+				17CD75B819C525C700D69E5E /* Helpers */,
 			);
 			path = WakeUsUp;
 			sourceTree = "<group>";
@@ -142,6 +223,98 @@
 				17CD758219C4C13700D69E5E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17CD758F19C4C13C00D69E5E /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				17CD756F19C4C13600D69E5E /* WUUAppDelegate.h */,
+				17CD757019C4C13700D69E5E /* WUUAppDelegate.m */,
+				17CD757219C4C13700D69E5E /* Images.xcassets */,
+				17CD756719C4C13600D69E5E /* Supporting Files */,
+			);
+			name = Applications;
+			sourceTree = "<group>";
+		};
+		17CD759019C4C14100D69E5E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17CD759319C4C3F500D69E5E /* WUULoginViewController.h */,
+				17CD759419C4C3F500D69E5E /* WUULoginViewController.m */,
+				17CD75A219C4D0F700D69E5E /* WUUSignUpViewController.h */,
+				17CD75A319C4D0F700D69E5E /* WUUSignUpViewController.m */,
+				17CD75BC19C52CF000D69E5E /* WUUAlarmsTableViewController.h */,
+				17CD75BD19C52CF000D69E5E /* WUUAlarmsTableViewController.m */,
+				17CD75BF19C52E7700D69E5E /* WUUAlarmTableViewCell.h */,
+				17CD75C019C52E7700D69E5E /* WUUAlarmTableViewCell.m */,
+				17CD75CF19C5597F00D69E5E /* WUUNewAlarmViewController.h */,
+				17CD75D019C5597F00D69E5E /* WUUNewAlarmViewController.m */,
+				17CD75B519C4F12900D69E5E /* WUUContactPickerViewController.h */,
+				17CD75B619C4F12900D69E5E /* WUUContactPickerViewController.m */,
+				17CD75C819C548D500D69E5E /* WUUClockViewController.h */,
+				17CD75C919C548D500D69E5E /* WUUClockViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		17CD759119C4C14600D69E5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17AF3FDD19C5859F00912989 /* digital_alarm.wav */,
+				17CD75A919C4E29D00D69E5E /* Icons */,
+				17CD759819C4CE2E00D69E5E /* XIBs */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		17CD759219C4C14A00D69E5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17CD759919C4D02E00D69E5E /* WUUMainContext.h */,
+				17CD759A19C4D02E00D69E5E /* WUUMainContext.m */,
+				17CD759B19C4D02E00D69E5E /* WUUPSCManager.h */,
+				17CD759C19C4D02E00D69E5E /* WUUPSCManager.m */,
+				17CD759F19C4D0B000D69E5E /* DataModel.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		17CD759819C4CE2E00D69E5E /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				17CD759519C4C3F500D69E5E /* WUULoginViewController.xib */,
+				17CD75A419C4D0F700D69E5E /* WUUSignUpViewController.xib */,
+				17CD75C119C52E7700D69E5E /* WUUAlarmTableViewCell.xib */,
+				17CD75D119C5597F00D69E5E /* WUUNewAlarmViewController.xib */,
+				17CD75CA19C548D500D69E5E /* WUUClockViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		17CD75A919C4E29D00D69E5E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				17AF3FE119C58A9500912989 /* end_button@2x.png */,
+				17AF3FDF19C58A8D00912989 /* snooze_button@2x.png */,
+				17CD75CD19C5511B00D69E5E /* clockBackground5@2x.png */,
+				28505FAD1AA2E02300DA9B67 /* avatar_placeholder.png */,
+				28505FA71AA2DFDE00DA9B67 /* person-stalker.png */,
+				28505FA81AA2DFDE00DA9B67 /* avatar_placeholder.png */,
+				17CD75AA19C4E3A300D69E5E /* ios7-close-outline-white@2x.png */,
+				17CD75A719C4E29800D69E5E /* ios7-close-outline@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		17CD75B819C525C700D69E5E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				17CD75B919C525E600D69E5E /* WUUDesignHelper.h */,
+				17CD75BA19C525E600D69E5E /* WUUDesignHelper.m */,
+				17AF3FD819C57E9800912989 /* WUUConnectionManager.h */,
+				17AF3FD919C57E9800912989 /* WUUConnectionManager.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +393,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AF3FE219C58A9500912989 /* end_button@2x.png in Resources */,
+				17CD75CE19C5511B00D69E5E /* clockBackground5@2x.png in Resources */,
+				17CD75C319C52E7700D69E5E /* WUUAlarmTableViewCell.xib in Resources */,
+				17CD75AB19C4E3A300D69E5E /* ios7-close-outline-white@2x.png in Resources */,
 				17CD756B19C4C13600D69E5E /* InfoPlist.strings in Resources */,
+				17AF3FE019C58A8D00912989 /* snooze_button@2x.png in Resources */,
 				17CD757319C4C13700D69E5E /* Images.xcassets in Resources */,
+				17AF3FDE19C5859F00912989 /* digital_alarm.wav in Resources */,
+				17CD75A619C4D0F700D69E5E /* WUUSignUpViewController.xib in Resources */,
+				17CD75A819C4E29800D69E5E /* ios7-close-outline@2x.png in Resources */,
+				28505FAE1AA2E02300DA9B67 /* avatar_placeholder.png in Resources */,
+				17CD759719C4C3F500D69E5E /* WUULoginViewController.xib in Resources */,
+				28505FAB1AA2DFDE00DA9B67 /* avatar_placeholder.png in Resources */,
+				17CD75D319C5597F00D69E5E /* WUUNewAlarmViewController.xib in Resources */,
+				17CD75CC19C548D500D69E5E /* WUUClockViewController.xib in Resources */,
+				28505FA91AA2DFDE00DA9B67 /* person-stalker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +416,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28505FAA1AA2DFDE00DA9B67 /* person-stalker.png in Resources */,
+				28505FAC1AA2DFDE00DA9B67 /* avatar_placeholder.png in Resources */,
+				28505FAF1AA2E02300DA9B67 /* avatar_placeholder.png in Resources */,
 				17CD758419C4C13700D69E5E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +430,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17CD75B719C4F12900D69E5E /* WUUContactPickerViewController.m in Sources */,
+				17CD75BB19C525E600D69E5E /* WUUDesignHelper.m in Sources */,
+				17CD759619C4C3F500D69E5E /* WUULoginViewController.m in Sources */,
+				17CD75D219C5597F00D69E5E /* WUUNewAlarmViewController.m in Sources */,
+				17CD75A519C4D0F700D69E5E /* WUUSignUpViewController.m in Sources */,
+				17CD759E19C4D02E00D69E5E /* WUUPSCManager.m in Sources */,
+				17CD759D19C4D02E00D69E5E /* WUUMainContext.m in Sources */,
+				17CD75A119C4D0B000D69E5E /* DataModel.xcdatamodeld in Sources */,
+				17CD75CB19C548D500D69E5E /* WUUClockViewController.m in Sources */,
+				17AF3FDA19C57E9800912989 /* WUUConnectionManager.m in Sources */,
 				17CD757119C4C13700D69E5E /* WUUAppDelegate.m in Sources */,
 				17CD756D19C4C13600D69E5E /* main.m in Sources */,
+				17CD75C219C52E7700D69E5E /* WUUAlarmTableViewCell.m in Sources */,
+				17CD75BE19C52CF000D69E5E /* WUUAlarmsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,9 +562,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WakeUsUp/WakeUsUp-Prefix.pch";
 				INFOPLIST_FILE = "WakeUsUp/WakeUsUp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,9 +577,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WakeUsUp/WakeUsUp-Prefix.pch";
 				INFOPLIST_FILE = "WakeUsUp/WakeUsUp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -440,6 +646,7 @@
 				17CD758B19C4C13700D69E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17CD758C19C4C13700D69E5E /* Build configuration list for PBXNativeTarget "WakeUsUpTests" */ = {
 			isa = XCConfigurationList;
@@ -448,8 +655,22 @@
 				17CD758E19C4C13700D69E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17CD759F19C4D0B000D69E5E /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17CD75A019C4D0B000D69E5E /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 17CD75A019C4D0B000D69E5E /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 17CD755519C4C13600D69E5E /* Project object */;
 }

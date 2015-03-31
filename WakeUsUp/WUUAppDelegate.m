@@ -7,6 +7,10 @@
 //
 
 #import "WUUAppDelegate.h"
+#import "WUULoginViewController.h"
+#import "WUUDesignHelper.h"
+#import "WUUPSCManager.h"
+#import "WUUClockViewController.h"
 
 @implementation WUUAppDelegate
 
@@ -14,6 +18,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+//    [[WUUPSCManager sharedManager] purgeData];
+    
+    [WUUDesignHelper setupAppearance];
+    
+    WUULoginViewController *loginController = [[WUULoginViewController alloc] init];
+    [self.window setRootViewController:loginController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
@@ -44,6 +56,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"AlarmHappening" object:nil userInfo:nil];
+    
 }
 
 @end

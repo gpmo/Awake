@@ -14,3 +14,37 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+
+/*
+ Here's all the macros
+ */
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+static BOOL(^SharedErrorBlock)(NSError *error, NSString *method) = ^(NSError *error, NSString *method) {
+    if(error){
+        NSLog(@"%@ encountered an error with localized description %@.\n The error is as follows: %@", method, [error localizedDescription], error);
+        return YES;
+    }
+    return NO;
+};
+
+#define METHOD_NAME [NSString stringWithFormat:@"%s", __PRETTY_FUNCTION__]
+
+
+static BOOL(^LogObject)(id obj) = ^(id obj){
+    
+    NSString *top = @"\n\n************************* Object in question *****************\n";
+    NSString *content = [NSString stringWithFormat:@"%@", obj ];
+    NSString *bottom =  @"\n*************************Trouble *****************\n\n";
+    
+    NSString *stringForReport = [NSString stringWithFormat:@"%@%@%@", top, content, bottom];
+    
+    NSLog(@"%@", stringForReport);
+    return YES;
+};
